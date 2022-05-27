@@ -47,7 +47,7 @@ std::vector<int> findDisappearedNumbers(std::vector<int>& nums) {
 }
 
 
-int main(int argc , char argv[]) {
+int main(int argv , char argc[]) {
 	std::vector<int> nums = { 5,4,6,7,9,3,10,9,5,6 };
 
 	std::vector<int> an = findDisappearedNumbers(nums);
